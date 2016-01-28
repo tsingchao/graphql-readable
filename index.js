@@ -1,5 +1,3 @@
-var fs = require('fs')
-var path = require('path')
 var invariant = require('graphql/jsutils/invariant')
 
 var buildClientSchema = require('graphql/utilities').buildClientSchema
