@@ -1,0 +1,53 @@
+{
+  "name": "graphql-readable",
+  "description": "Parse the JSON of full schema introspection to the readable type system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsingchao/graphql-readable.git"
+  },
+  "keywords": [
+    "graphql",
+    "readable"
+  ],
+  "author": "tsingchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsingchao/graphql-readable/issues"
+  },
+  "homepage": "https://github.com/tsingchao/graphql-readable#readme",
+  "config": {
+    "ghooks": {
+      "commit-msg": "node ./node_modules/.bin/validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100
+    }
+  },
+  "devDependencies": {
+    "ghooks": "^1.0.3",
+    "semantic-release": "^4.3.5",
+    "validate-commit-msg": "^1.1.1"
+  },
+  "dependencies": {
+    "chai": "^3.4.1",
+    "graphql": "^0.4.14",
+    "mocha": "^2.4.2"
+  }
+}
