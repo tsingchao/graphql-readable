@@ -17,8 +17,12 @@ describe('Test the graphql-readable', function() {
     expect(parser).to.throw(/Must provide schema/)
   })
 
-  it('should throw error `Wrong schema` when schema has no data property', function() {
-    expect(parser.bind(this, {})).to.throw(/Wrong schema/)
+  it('should throw error `Cannot read property \'data\' of schema` when schema has no data property', function() {
+    expect(parser.bind(this, {})).to.throw(/Cannot read property \'data\' of schema/)
+  })
+
+  it('should throw `TypeError` error when schema has wrong structure', function() {
+    expect(parser.bind(this, {data: {}})).to.throw(/TypeError/)
   })
 
 })
