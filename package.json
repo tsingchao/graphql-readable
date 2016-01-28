@@ -47,11 +47,11 @@
     "istanbul": "^0.4.2",
     "mocha-lcov-reporter": "^1.0.0",
     "semantic-release": "^4.3.5",
-    "validate-commit-msg": "^1.1.1"
+    "validate-commit-msg": "^1.1.1",
+    "chai": "^3.4.1",
+    "mocha": "^2.4.2"
   },
   "dependencies": {
-    "chai": "^3.4.1",
-    "graphql": "^0.4.14",
-    "mocha": "^2.4.2"
+    "graphql": "^0.4.14"
   }
 }
