@@ -22,7 +22,12 @@ var schema = require('./schema.json')
 
 fs.writeFileSync(
   path.join(__dirname, './schema.graphql'),
-  parser(schema)
+  parser(schema, 'GraphQL')
+)
+
+fs.writeFileSync(
+  path.join(__dirname, './schema.json'),
+  parser(schema, 'JSON')
 )
 ```
 
