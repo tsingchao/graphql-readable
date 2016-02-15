@@ -1,6 +1,7 @@
 # graphql-readable
 
 [![](https://img.shields.io/travis/tsingchao/graphql-readable.svg)](https://travis-ci.org/tsingchao/graphql-readable)
+[![Code Climate](https://codeclimate.com/github/tsingchao/graphql-readable/badges/gpa.svg)](https://codeclimate.com/github/tsingchao/graphql-readable)
 [![Coverage Status](https://coveralls.io/repos/github/tsingchao/graphql-readable/badge.svg?branch=master)](https://coveralls.io/github/tsingchao/graphql-readable?branch=master)
 [![npm package](https://img.shields.io/npm/v/graphql-readable.svg)](https://www.npmjs.org/package/graphql-readable)
 [![NPM downloads](http://img.shields.io/npm/dm/graphql-readable.svg)](https://npmjs.org/package/graphql-readable)
