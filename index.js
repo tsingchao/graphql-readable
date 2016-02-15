@@ -23,8 +23,7 @@ module.exports = function(schema, format) {
       return printJSON(clientSchema);
     default:
       throw new Error('Could only parse one of types which is `GraphQL` or `JSON`');
-      return '';
-  };
+  }
 
 };
 
@@ -32,10 +31,10 @@ function printGraphQL(clientSchema) {
 
   return printSchema(clientSchema);
 
-};
+}
 
 function printJSON(clientSchema) {
 
   return {};
 
-};
+}
