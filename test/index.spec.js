@@ -52,6 +52,9 @@ describe('Test the function printGraphQL', function() {
 
 describe('Test the function printJSON', function() {
 
-
+  it('should return an empty object', function() {
+    expect(parser(schema, 'JSON')).to.be.empty;
+    expect(parser(schema, 'JSON')).to.be.an.instanceof(Object);
+  })
 
 });
