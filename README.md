@@ -23,12 +23,12 @@ var parser = require('graphql-readable')
 var schema = require('./schema.json')
 
 fs.writeFileSync(
-  path.join(__dirname, './schema.graphql'),
+  path.join(__dirname, './schemaType.graphql'),
   parser(schema, 'GraphQL')
 )
 
 fs.writeFileSync(
-  path.join(__dirname, './schema.json'),
+  path.join(__dirname, './schemaType.json'),
   parser(schema, 'JSON')
 )
 ```
