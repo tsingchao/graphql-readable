@@ -18,6 +18,7 @@ npm install graphql-readable --save-dev
 ``` javascript
 // generator.js
 var fs = require('fs')
+var path = require('path')
 var parser = require('graphql-readable')
 var schema = require('./schema.json')
 
