@@ -1,4 +1,4 @@
-var invariant = require('graphql/jsutils/invariant');
+var invariant = require('graphql/jsutils/invariant').default;
 var buildClientSchema = require('graphql/utilities').buildClientSchema;
 var printSchema = require('graphql/utilities').printSchema;
 

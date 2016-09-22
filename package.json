@@ -52,6 +52,6 @@
     "mocha": "^2.4.2"
   },
   "dependencies": {
-    "graphql": "^0.4.14"
+    "graphql": "^0.7.0"
   }
 }
